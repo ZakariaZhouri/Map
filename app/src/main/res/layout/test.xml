@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:background="@color/button_material_light"
+            android:layout_marginRight="36dp"
+
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/departure_adress"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/departure_address"/>
+        </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/arrival_address_layout"
+        android:layout_width="match_parent"
+        android:layout_marginTop="72dp"
+        android:layout_height="72dp"
+        android:layout_marginRight="36dp"
+
+        >
+        <EditText
+            android:id="@+id/arrival_adress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/button_material_light"
+            android:hint="@string/arrival_address"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/zoomout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="zoomOut"
+            />
+
+        <Button
+            android:id="@+id/zoomin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="zoomIn"
+            />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/buttonsearch"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="72dp"
+        android:layout_gravity="right|top"
+        android:background="@drawable/search"/>
+    <ImageButton
+        android:id="@+id/button_geoloc"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="36dp"
+        android:layout_gravity="bottom|left"
+        android:background="@drawable/geloc"/>
+    <Button
+        android:id="@+id/map_type_button"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_gravity="bottom|right"
+        android:text="@string/display_type"
+        />
+
+
+</FrameLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DevryWereMaps</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="departure_address">adresse de depart</string>
+    <string name="arrival_address">adresse d arrivée</string>
+    <string name="alert">Entrer une adresse !</string>
+    <string name="normal_type">mode standar</string>
+    <string name="satellite_type">mode satellite</string>
+    <string name="terrain_type">mode terrain</string>
+    <string name="hybrid_type">mode hybrid</string>
+    <string name="display_type">Display type</string>
+    <string name="zoom_out">ZoomOut</string>
+    <string name="zoom_in">ZoomIn</string>
+</resources>
